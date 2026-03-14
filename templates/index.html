@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>AI Skin Detector</title>
+
+    <link rel="stylesheet" href="static\css\style.css">
+
+</head>
+
+<body>
+
+    <div class="glass-card">
+
+        <h1 class="title">AI Skin Scanner</h1>
+
+        <p class="subtitle">
+            Upload a skin image for AI analysis
+        </p>
+
+        <form action="/predict" method="post" enctype="multipart/form-data">
+
+            <input type="file" name="image" required>
+
+            <br><br>
+
+            <button type="submit">
+                Analyze Skin
+            </button>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
